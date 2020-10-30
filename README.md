@@ -55,3 +55,5 @@ Trên tập test
 | ------------- | ------------- |
 |0.1904|0.9316|
 
+## 4. Nhận xét.
+So sánh trên tiêu chí là độ chính xác trên tập test, ta thấy rằng, mô hình ResNet cho độ chính xác cao nhất, tiếp theo là MLP, cuối cùng là SVM.
