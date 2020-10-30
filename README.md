@@ -39,5 +39,6 @@ Trên tập test
 |0.2900|0.8980|
 
 ## 3. ResNet-18
-Do độ lớn của bài toán, tôi sẽ chỉ dùng mô hình ResNet-18, như trong bài báo [Deep Residual Learning for Image Recognition](https://arxiv.org/abs/1512.03385). Tuy nhiên, do kích thước ban đầu của ảnh đã khá nhỏ (28x28) nên tôi đã lược bỏ đi một lớp max-pool ở đầu mô hình, đồng thời ở lớp conv đầu tiên cũng giảm stride từ 2 xuống 1.
+Do độ lớn của bài toán, tôi sẽ chỉ dùng mô hình ResNet-18, như trong bài báo [Deep Residual Learning for Image Recognition](https://arxiv.org/abs/1512.03385). Tuy nhiên, do kích thước ban đầu của ảnh đã khá nhỏ (28x28) nên tôi đã lược bỏ đi một lớp max-pool ở đầu mô hình, đồng thời ở lớp conv đầu tiên cũng giảm stride từ 2 xuống 1. 
+[[images/resnet-18.png]]
 
