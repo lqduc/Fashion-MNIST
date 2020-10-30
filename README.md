@@ -27,6 +27,7 @@ Khi số chiều ta giữ lại sau khi PCA là quá thấp thì độ chính x�
 |Output	|10
 
 Kết quả đánh giá mô hình như sau:
+
 Trên tập train
 |Loss|Accuracy|
 | ------------- | ------------- |
