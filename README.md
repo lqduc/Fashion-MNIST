@@ -13,3 +13,14 @@ Trước khi đưa vào mô hình học, chúng ta cần giảm số chiều d�
 | 300	| 0.893  |
 | 400	| 0.892  |
 | 500	| 0.892  |
+Khi số chiều ta giữ lại sau khi PCA là quá thấp thì độ chính xác của mô hình SVM cũng giảm đi đáng kể. Mô hình SVM đạt độ chính xác cao nhất trên tập test với số chiều của dữ liệu là 300. Lúc này, độ chính xác của mô hình SVM trên tập train là 0.917, độ chính xác trên tập test là 0.893.
+
+# 2. Multilayer Perceptron
+Đầu tiên, ảnh input sẽ được làm phẳng ra thành mảnh một chiều gồm 784 pixels. Sau đó, mô hình gồm có 3 lớp ẩn đều là các fully-connected layer. Hàm kích hoạt là sigmoid. Cuối cùng, một lớp softmax được thêm vào sau lớp output để chuẩn hóa đầu ra thành phân phối xác suất của 10 lớp trong tập dữ liệu.
+|Layer|	Số nốt|
+| ------------- | ------------- |
+|Input	|784
+|Hidden layer 1	|1000
+|Hidden layer 1	|256
+|Hidden layer 1	|64
+|Output	|10
