@@ -20,8 +20,19 @@ Khi số chiều ta giữ lại sau khi PCA là quá thấp thì độ chính x�
 Đầu tiên, ảnh input sẽ được làm phẳng ra thành mảnh một chiều gồm 784 pixels. Sau đó, mô hình gồm có 3 lớp ẩn đều là các fully-connected layer. Hàm kích hoạt là sigmoid. Cuối cùng, một lớp softmax được thêm vào sau lớp output để chuẩn hóa đầu ra thành phân phối xác suất của 10 lớp trong tập dữ liệu.
 |Layer|	Số nốt|
 | ------------- | ------------- |
-|Input	|784
-|Hidden layer 1	|1000
-|Hidden layer 1	|256
-|Hidden layer 1	|64
+|Input	|784|
+|Hidden layer 1	|1000|
+|Hidden layer 1	|256|
+|Hidden layer 1	|64|
 |Output	|10
+
+Kết quả đánh giá mô hình như sau:
+Trên tập train
+|Loss|Accuracy|
+| ------------- | ------------- |
+|0.1762|0.9335|
+
+Trên tập test
+|Loss|Accuracy|
+| ------------- | ------------- |
+|0.2900|0.8980|
